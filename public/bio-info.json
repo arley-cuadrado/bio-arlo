@@ -1,0 +1,116 @@
+{
+    "bio": [
+        {
+            "id": 1,
+            "bio": {
+                "name": "Arley",
+                "lastname": "Cuadrado",
+                "age": "36"
+            },
+            "profession": {
+                "career": "Informatic Engineer",
+                "design": "UX/UI",
+                "description": "with experience working in frontend technologies for different companies, also as a freelance... I'm constantly looking to do interesting challenges and try to adapt to different environments."
+            }
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": {
+                "name": "Pgd Portfolio Platform",
+                "image": "../src/assets/ux-01.jpg",
+                "heading": "What about this?",
+                "description": "This project arises as a solution to PGD's need for its own platform, where production vertical talents can keep their profiles updated. At the same time, it allows viewing their profiles, skills, and a project history that can provide immediate feedback to the professionals in the selection process."
+            },
+            "heading_1": "What about this?",
+            "description_1": "This project arises as a solution to PGD's need for its own platform, where production vertical talents can keep their profiles updated. At the same time, it allows viewing their profiles, skills, and a project history that can provide immediate feedback to the professionals in the selection process.",
+            "caption_2": "The Project and Its Challenges",
+            "description_2": "The goal was to create an internal web platform capable of displaying the profiles of our talents. While we understood the requirement, it needed to be adapted to the features of the Careers 2.0 platform and also serve as a replacement for SmartRecruiters.",
+            "caption_3": "Let's Get to Work!",
+            "description_3": "First, it was determined that a series of components would be created to expand the modular spectrum of the Careers design system. Therefore, the idea of developing card-based interfaces was proposed to meet the need. Visualization models were established, including images, paragraphs, and titles, along with a preview of team members, where the status of this target would change depending on the number of people.",
+            "caption_4": "Cards as Components Everywhere…",
+            "description_4": "And… yes! The structure of cards helps us display relevant information, from a tiny image to a visually engaging section with the most incredible interaction on a website.",
+            "caption_5": "Component Loading",
+            "description_5": "The preview of elements during loading processes is a key factor in platform versatility and best practices. From a UX perspective, it provides valuable information to talent search professionals and reduces stress while waiting for data to load.",
+            "caption_6": "Cards, modals / pop-ups, and gallery",
+            "description_6": "There's no better way to showcase the skills and projects of talents  than by using a gallery module that not only contains images but also  allows interaction when clicked, displaying a modal window with detailed information about each item in an overlay of elements...  And that’s  how the solution was conceived: to expand information beyond the image,  even though a picture is worth a thousand words, words will never go a miss. :)",
+            "caption_7": "Simplicity Meets Complexity",
+            "description_7": "We never forgot how important it was to use and modify this component,  giving it variations that became the unique reflection of our platform,  blending simplicity with complexity.",
+            "images_group": [
+                "../src/assets/image_01.jpg",
+                "../src/assets/image_02.jpg",
+                "../src/assets/image_03.jpg",
+                "../src/assets/image_04.jpg",
+                "../src/assets/image_05.jpg",
+                "../src/assets/image_06.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": {
+                "name": "Rho Ram My25",
+                "image": "../src/assets/ux-02.jpg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            "heading_1": "About The Project",
+            "description_1": "RHO is the flagship launch of Ram 2025, a new truck model with improvements in autonomy, horsepower, and powerful performance at a lower cost than its predecessor, the mighty TRX. The goal of the project was to develop a website that showcased the important features and enhancements made to the truck, inviting buyers to immerse themselves in a new era of automotive power.",
+            "caption_2": "Concept Generation",
+            "description_2": "The visual intent of the website was to evoke the power the  brand has always had over the competition, while also objectively showcasing the proven technical aspects. It aimed to bring customers closer to the day-to-day experience, letting them know the capabilities of the new concept in terms of load capacity.",
+            "caption_3": "Humanize It",
+            "description_3": "One of the objectives of the launch was to bring the buyer's perspective closer by showing images that are easily relatable to their daily activities using the truck.",
+            "caption_4": "Challenges",
+            "description_4": "We understood that comparisons to its powerful predecessor versions would be inevitable, which is why the entire focus on copy and  imagery had a significant and positive impact on the idea we wanted to convey with this new launch. As a result, expressions like POWER, MODELS & UPDATED held true relevance when shaping the proposal.",
+            "caption_5": "New Generation Of Power",
+            "description_5": "...",
+            "caption_6": "Performance",
+            "description_6": "The performance section was also of utmost importance for  representing the power of this new truck. For this reason, modules were created to complement the technical aspects of the engine with its visual representation, as well as numbered tooltips in bubble-style components that detailed the concepts of horsepower, torque, towing, and payload.",
+            "caption_7": "Technology",
+            "description_7": "Alongside its technical features and performance improvements,  the company also developed RAM Digital Key, a technology that allows customers to access their vehicle from their iPhone or Apple Watch without the need for a physical key. It also enables them to start the truck and experience the power of having an entirely connected environment.",
+            "caption_8": "Design Technology Confort",
+            "description_8": "*Gallery module to showcase exterior and interior features. From the comfort of its black leather seats and spacious interiors to the  functional mechanical, technological, and aesthetic details of the RHO.",
+            "caption_9": "Highlights",
+            "description_9": "There’s no better way to showcase the important features of a product than through its highlights. <br/>That’s why a dedicated module was implemented, allowing users to view everything from the color of the  truck they’re interested in, to its exterior and interior features, wheels, cab/box, and even access a 360-degree viewer to examine every part of the vehicle in detail. <br/>The result of such components translates into providing clarity to buyers regarding aesthetic, mechanical, and functional aspects, while also giving them the confidence they need when starting the purchasing process.",
+            "images_group": [
+                "../src/assets/image_07.jpg",
+                "../src/assets/image_08.jpg",
+                "../src/assets/image_09.jpg",
+                "../src/assets/image_10.jpg",
+                "../src/assets/image_11.jpg",
+                "../src/assets/image_12.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": {
+                "name": "Pxp Marcel",
+                "image": "../src/assets/ux-03.jpg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "id": 4,
+            "title": {
+                "name": "Bet Challenge",
+                "image": "../src/assets/ux-04.jpg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "id": 5,
+            "title": {
+                "name": "Gimme! Qr App",
+                "image": "../src/assets/ux-05.jpg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "id": 6,
+            "title": {
+                "name": "Amex Airport Experience",
+                "image": "../src/assets/ux-06.jpg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        }
+    ]
+}
