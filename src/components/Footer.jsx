@@ -18,7 +18,7 @@ export default function Footer(){
                                         <div>Phone number</div>
                                     </div>
                                     <div>
-                                        <div>+57 350 894 0843</div>
+                                        <div>+57 310 364 4977</div>
                                     </div>
                                 </li>
 

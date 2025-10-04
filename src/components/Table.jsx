@@ -21,7 +21,7 @@ export default function Table() {
         <thead>
           <tr>
             <th>Company</th>
-            <th>Job description</th>
+            <th>Job</th>
             <th>Description</th>
             <th></th>
           </tr>
