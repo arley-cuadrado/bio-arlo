@@ -37,16 +37,16 @@ function App() {
                   })
                 }
               </ul>
-              <Navbar />
-                <div className='flex justify-center'>
-                  <main className='sm:w-auto md:w-auto lg:w-250'>
-                    <Introduction />
-                    <Table />
-                    <Work />
-                    <Coding />
-                    {/*<Footer />*/}
-                  </main>
-                </div>
+              {/*<Navbar />*/}
+              <div className='sm:flex-none lg:flex justify-center'>
+                <main className='sm:w-auto md:w-auto lg:w-250'>
+                  <Introduction />
+                  <Table />
+                  <Work />
+                  <Coding />
+                  {/*<Footer />*/}
+                </main>
+              </div>
             </Layout>
           }
         />

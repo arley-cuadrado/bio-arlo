@@ -26,6 +26,7 @@ export default function Introduction(){
                     </div>
                 </div>
             </div>
+
             <div className='mb-30 flex flex-col md:flex-row'>{/* sm:flex-col md:flex-col  */}
                 <div className='mb-10   '>
                     <strong className="text-2xl mr-15">Skills & Tools</strong>
