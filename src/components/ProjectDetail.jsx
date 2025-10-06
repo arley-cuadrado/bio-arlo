@@ -1,9 +1,12 @@
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Carousel from "./Carousel"
+import React, { useEffect, useRef } from 'react';
 
 
 export default function ProjectDetail(){
+
+    const projectRef = useRef(null);
 
     const location = useLocation()
     const project = location.state?.project;
@@ -12,12 +15,18 @@ export default function ProjectDetail(){
         return <p>No se encontró iformación del proyecto...</p>
     }
 
+    useEffect(() => {
+        if(projectRef.current){
+            projectRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, []);
+    
     return(
         <>
-                <div className="hero-content flex flex-col">
-                    <div className="w-full">
+                <div ref={projectRef} className="hero-content flex flex-col">
+                    {/*<div className="w-full">
                         <Link to={`/`} state={{ project }} className="link">Go back</Link>
-                    </div>
+                    </div>*/}
                     <div>
                         {/*<img src={project.title.image} className="w-full rounded-lg shadow-2xl mb-25" />
                         <h1 className="text-5xl font-bold mb-10 title">{project.title.name}</h1>
@@ -69,7 +78,7 @@ export default function ProjectDetail(){
                         </div>
 
                         <div className="w-full mt-5">
-                            <Link to={`/`} state={{ project }} className="link">Go back</Link>
+                            <Link to={`/`} state={{ project }} className="link link-info"> {`< Go back`}</Link>
                         </div>
 
                     </div>
