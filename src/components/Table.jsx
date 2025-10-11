@@ -1,9 +1,3 @@
-{/*
-import leo from './public/leo'
-import vass from './public/vass'
-import grupoDot from './public/grupoDot'
-import publicisGroupe from './public/publicisGroupe'
-*/}
 import publicis from '../assets/publicisGroupe.png'
 import vass from '../assets/vass.png'
 import dot from '../assets/grupoDot.png'

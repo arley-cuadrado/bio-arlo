@@ -15,28 +15,28 @@ export default function Footer(){
 
                                 <li className="list-row flex justify-between">
                                     <div>
-                                        <div>Phone number</div>
+                                        <div className="text-left">Phone number</div>
                                     </div>
                                     <div>
-                                        <div>+57 310 364 4977</div>
-                                    </div>
-                                </li>
-
-                                <li className="list-row flex justify-between">
-                                    <div>
-                                        <div>Email</div>
-                                    </div>
-                                    <div>
-                                        <div><a href="mailto:arley.cuadradosierra@gmail.com">arley.cuadrado@icloud.com</a></div>
+                                        <div className="text-right">+57 310 364 4977</div>
                                     </div>
                                 </li>
 
                                 <li className="list-row flex justify-between">
                                     <div>
-                                        <div>LinkedIn</div>
+                                        <div className="text-left">Email</div>
                                     </div>
                                     <div>
-                                        <div><a href="https://www.linkedin.com/in/arley-cuadrado/" target="_blank">https://www.linkedin.com/in/arley-cuadrado/</a></div>
+                                        <div className="text-right"><a href="mailto:arley.cuadradosierra@gmail.com">arley.cuadrado@icloud.com</a></div>
+                                    </div>
+                                </li>
+
+                                <li className="list-row flex justify-between">
+                                    <div>
+                                        <div className="text-left">LinkedIn</div>
+                                    </div>
+                                    <div>
+                                        <div className="text-right"><a href="https://www.linkedin.com/in/arley-cuadrado/" target="_blank">https://www.linkedin.com/in/arley-cuadrado/</a></div>
                                     </div>
                                 </li>
 
