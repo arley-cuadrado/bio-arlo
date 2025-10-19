@@ -6,7 +6,6 @@ import Work from './components/Work'
 import Coding from './components/Coding'
 import Table from './components/Table'
 import Footer from './components/Footer'
-import Navbar from './components/Navbar'
 import Introduction from './components/Introduction'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import ProjectDetail from './components/ProjectDetail'
@@ -45,14 +44,12 @@ function App() {
                   })
                 }
               </ul>
-              {/*<Navbar />*/}
               <div className='sm:flex-none lg:flex justify-center'>
                 <main className='sm:w-auto md:w-auto lg:w-250'>
                   <Introduction />
                   <Table />
                   <Work />
                   <Coding />
-                  {/*<Footer />*/}
                 </main>
               </div>
             </Layout>
