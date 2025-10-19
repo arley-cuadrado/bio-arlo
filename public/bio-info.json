@@ -19,67 +19,67 @@
             "id": 1,
             "title": {
                 "name": "Pgd Portfolio Platform",
-                "image": "../src/assets/ux-01.jpg",
+                "image": "/assets/ux-01.jpg",
                 "heading": "What about this?",
                 "description": "This project arises as a solution to PGD's need for its own platform, where production vertical talents can keep their profiles updated. At the same time, it allows viewing their profiles, skills, and a project history that can provide immediate feedback to the professionals in the selection process."
             },
             "images_group": [
-                "../src/assets/ui_projects/image_01.jpg"
+                "/assets/ui_projects/image_01.jpg"
             ]
         },
         {
             "id": 2,
             "title": {
                 "name": "Rho Ram My25",
-                "image": "../src/assets/ux-02.jpg",
+                "image": "/assets/ux-02.jpg",
                 "description": "RHO is the flagship launch of Ram 2025, a new truck model with improvements in autonomy, horsepower, and powerful performance at a lower cost than its predecessor, the mighty TRX."
             },
             "images_group": [
-                "../src/assets/ui_projects/image_02.jpg"
+                "/assets/ui_projects/image_02.jpg"
             ]
         },
         {
             "id": 3,
             "title": {
                 "name": "Pxp Marcel",
-                "image": "../src/assets/ux-03.jpg",
+                "image": "/assets/ux-03.jpg",
                 "description": "Bet is a real-time betting application associated with the NBA for all its basketball games. Although it is a proposal, it was created so that users can interact in a more dynamic and visual way. In this you can see statistics, choose the most relevant player of the night, and bet on the game and the winner."
             },
             "images_group": [
-                "../src/assets/ui_projects/image_03.jpg"
+                "/assets/ui_projects/image_03.jpg"
             ]
         },
         {
             "id": 4,
             "title": {
                 "name": "Bet Challenge",
-                "image": "../src/assets/ux-04.jpg",
+                "image": "/assets/ux-04.jpg",
                 "description": "Bet is a real-time betting application associated with the NBA for all its basketball games. Although it is a proposal, it was created so that users can interact in a more dynamic and visual way. In this you can see statistics, choose the most relevant player of the night, and bet on the game and the winner."
             },
             "images_group": [
-                "../src/assets/ui_projects/image_04.jpg"
+                "/assets/ui_projects/image_04.jpg"
             ]
         },
         {
             "id": 5,
             "title": {
                 "name": "Gimme! Qr App",
-                "image": "../src/assets/ux-05.jpg",
+                "image": "/assets/ux-05.jpg",
                 "description": "The idea behind the creation of Buddy is to provide customers with a web application that helps find lost pets. With the help of an interface where they can see the perimeters, the tracks that their pets make, send alerts to neighbors who are also registered."
             },
             "images_group": [
-                "../src/assets/ui_projects/image_05.jpg"
+                "/assets/ui_projects/image_05.jpg"
             ]
         },
         {
             "id": 6,
             "title": {
                 "name": "Amex Airport Experience",
-                "image": "../src/assets/ux-06.jpg",
+                "image": "/assets/ux-06.jpg",
                 "description": "American Express was looking for a more intuitive, visual, and engaging way to showcase the exclusive benefits of the Platinum Card® within their premium physical spaces the Amex Lounges in international airports. The goal was to design a flow that would guide travelers while waiting for their flight through a light, informative, and gamified digital experience that reinforces the value of their membership."
             },
             "images_group": [
-                "../src/assets/ui_projects/image_06.jpg"
+                "/assets/ui_projects/image_06.jpg"
             ]
         }
     ]

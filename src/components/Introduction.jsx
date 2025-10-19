@@ -1,9 +1,9 @@
-import tShaped from '../assets/t-shaped.png'
-import html from '../assets/html.png'
-import css from '../assets/css.png'
-import js from '../assets/js.png'
-import figma from '../assets/figma.png'
-import xd from '../assets/xd.png'
+import tShaped from '/assets/t-shaped.png'
+import html from '/assets/html.png'
+import css from '/assets/css.png'
+import js from '/assets/js.png'
+import figma from '/assets/figma.png'
+import xd from '/assets/xd.png'
 import '../App.css'
 
 export default function Introduction(){

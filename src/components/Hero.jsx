@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import arlo from '../assets/me.jpg'
+import arlo from '/assets/me.jpg'
 
 export default function Hero( {biography} ){
 

@@ -1,7 +1,7 @@
-import publicis from '../assets/publicisGroupe.png'
-import vass from '../assets/vass.png'
-import dot from '../assets/grupoDot.png'
-import leo from '../assets/leo.png'
+import publicis from '/assets/publicisGroupe.png'
+import vass from '/assets/vass.png'
+import dot from '/assets/grupoDot.png'
+import leo from '/assets/leo.png'
 
 export default function Table() {
   return (
