@@ -11,9 +11,12 @@ import Introduction from './components/Introduction'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import ProjectDetail from './components/ProjectDetail'
 import Layout from "./components/Layout"
+import Toggle from "./components/Toggle"
+import useLocalStorage from "use-local-storage"
 
 function App() {
   const [ info, setInfo ] = useState([])
+  const [ isDark, setIsDark ] = useLocalStorage("isDark", false);
 
   useEffect(()=>{
     fetch("bio-info.json")
@@ -22,13 +25,18 @@ function App() {
   },[])
 
   return (
-    <>
+    <div data-theme={isDark ? "dark" : "light"}>
       <Routes>
         {/* Landing completa */}
         <Route
           path="/"
           element={
             <Layout>
+              <Toggle
+                isChecked={isDark}
+                handleChange={() => setIsDark(!isDark)}
+                theme={isDark}
+              />
               <ul>
                 {
 
@@ -66,7 +74,7 @@ function App() {
         />
       </Routes>
       <Footer />
-    </>
+    </div>
   )
 }
 

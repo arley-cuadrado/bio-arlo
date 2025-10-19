@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <>
-        <div class="divider"></div>
+        <div className="divider"></div>
 
             <div className="card w-full bg-base-100 mb-5 pt-20 pb-20"> {/*card-xs shadow-sm*/}
                     <div className="grid place-content-center">
@@ -27,7 +27,7 @@ export default function Footer(){
                                         <div className="text-left">Email</div>
                                     </div>
                                     <div>
-                                        <div className="text-right"><a href="mailto:arley.cuadradosierra@gmail.com">arley.cuadrado@icloud.com</a></div>
+                                        <div className="text-right"><a href="mailto:arley.cuadrado@icloud.com">arley.cuadrado@icloud.com</a></div>
                                     </div>
                                 </li>
 

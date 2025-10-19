@@ -1,0 +1,7 @@
+.toogle {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    z-index: 999;
+}
