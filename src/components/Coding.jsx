@@ -53,7 +53,7 @@ export default function Coding(){
                                     {repo.name}
                                 </a>
                             </h2>
-                            <p className="opacity-50 badge badge-ghost badge-sm h-auto pl-0">{repo.description || "Sin descripción disponible"}</p>
+                            <p className="opacity-50 badge badge-ghost badge-sm h-auto pl-0">{repo.description || "No description available"}</p>
                         </li>
                         ))}
                         <div className="divider"></div>

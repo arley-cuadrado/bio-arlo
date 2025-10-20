@@ -1,4 +1,7 @@
 export default function Footer(){
+
+        const arrow = '-->';
+
     return(
         <>
         <div className="divider"></div>
@@ -36,18 +39,18 @@ export default function Footer(){
                                         <div className="text-left">LinkedIn</div>
                                     </div>
                                     <div>
-                                        <div className="text-right"><a href="https://www.linkedin.com/in/arley-cuadrado/" target="_blank">https://www.linkedin.com/in/arley-cuadrado/</a></div>
+                                        <div className="text-right"><a href="https://www.linkedin.com/in/arley-cuadrado/" target="_blank">Arley {arrow} Linkedin </a></div>
                                     </div>
                                 </li>
 
-                                {/*<li className="list-row flex justify-between">
+                                <li className="list-row flex justify-between">
                                     <div>
-                                        <div>Behance</div>
+                                        <div>Download resume</div>
                                     </div>
                                     <div>
-                                        <div><a href="https://www.behance.net/arleycuadr1d37" target="_blank">https://www.behance.net/arleycuadr1d37</a></div>
+                                        <div><a href="./resume_pdf/arley_cuadrado_resume.pdf" download target="_blank">Arley {arrow} Resume</a></div>
                                     </div>
-                                </li>*/}
+                                </li>
 
                             </ul>
                         </div>
