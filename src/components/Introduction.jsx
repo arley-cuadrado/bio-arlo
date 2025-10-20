@@ -17,7 +17,7 @@ export default function Introduction(){
                     className="max-w-sm rounded-lg"
                     />
                     <div>
-                        <h1 className="font-bold text-2xl">What is a T-shaped?</h1>
+                        <h1 className="font-bold text-2xl animate__animated animate__fadeIn">What is a T-shaped?</h1>
                         <p className="py-3">
                             A T-shaped Developer is a professional with a broad foundation across different areas and deep specialization in a specific discipline. 
                             In this case, it refers to a Computer Engineer specialized in <strong>Frontend</strong>, with experience in <strong>UX/UI Design</strong>. This combination makes 

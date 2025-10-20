@@ -1,6 +1,5 @@
 import React,{ useState, useEffect } from 'react'
 import './App.css'
-import Menu from './components/Menu'
 import Hero from './components/Hero'
 import Work from './components/Work'
 import Coding from './components/Coding'
@@ -12,6 +11,7 @@ import ProjectDetail from './components/ProjectDetail'
 import Layout from "./components/Layout"
 import Toggle from "./components/Toggle"
 import useLocalStorage from "use-local-storage"
+import 'animate.css';
 
 function App() {
   const [ info, setInfo ] = useState([])

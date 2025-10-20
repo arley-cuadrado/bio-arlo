@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.1.11",
+    "animate.css": "^4.1.1",
     "daisyui": "^5.0.50",
     "npm": "^11.6.1",
     "react": "^19.1.0",

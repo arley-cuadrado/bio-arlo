@@ -1,7 +1,7 @@
 {
     "bio": [
         {
-            "id": 1,
+            "id": 0,
             "bio": {
                 "name": "Arley",
                 "lastname": "Cuadrado",
@@ -43,7 +43,7 @@
             "title": {
                 "name": "Pxp Marcel",
                 "image": "/assets/ux-03.jpg",
-                "description": "Bet is a real-time betting application associated with the NBA for all its basketball games. Although it is a proposal, it was created so that users can interact in a more dynamic and visual way. In this you can see statistics, choose the most relevant player of the night, and bet on the game and the winner."
+                "description": "PXP is Publicis Groupe's future-facing global production network, fully immersed in the realm of data, the technological revolution, and the platform-driven world."
             },
             "images_group": [
                 "/assets/ui_projects/image_03.jpg"
