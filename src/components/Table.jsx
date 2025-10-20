@@ -4,7 +4,23 @@ import vass from '/assets/vass.png'
 import dot from '/assets/grupoDot.png'
 import leo from '/assets/leo.png'
 
-export default function Table() {
+export default function Table({ dataTheme }) {
+
+
+  const [dataColor, setDataColor] = useState(dataTheme)
+
+
+  useEffect(() => {
+    if (dataTheme === false) {
+      setDataColor('#fff')
+    } else {
+      setDataColor('#1D232A')
+    }
+  }, [dataTheme])
+   
+  const blurStyle = {
+    backgroundImage: `linear-gradient(to right, ${dataColor})`
+  }
 
   return (
     <>
@@ -13,9 +29,9 @@ export default function Table() {
           <h1 className="text-5xl font-bold title">Experience</h1>
       </div>
       <div className="overflow-x-auto mt-10 mb-30">
-        {/*<aside className='flex flex-row-reverse'>
-          <div className='o-table' style={blurStyle}>this</div>
-        </aside>*/}
+        <aside className='flex flex-row-reverse'>
+          <div className='o-table' style={blurStyle}></div>
+        </aside>
         <table className="table">
           {/* head */}
           <thead>

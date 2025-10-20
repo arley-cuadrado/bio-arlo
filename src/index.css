@@ -63,7 +63,7 @@ button:focus-visible {
 
 .o-table{
   height: 500px;
-  width: 30px;
+  width: 45px;
   position: absolute;
   display: flex;
   justify-content: left;
@@ -71,7 +71,7 @@ button:focus-visible {
   margin-right: -16px;
   /*background-image: linear-gradient(to right, #0000, #000);*/
   filter: blur(10px);
-  opacity: 0.5;
+  opacity: 1;
 }
 
 @media (prefers-color-scheme: light) {
