@@ -44,10 +44,10 @@ function App() {
                   })
                 }
               </ul>
-              <div className='sm:flex-none lg:flex justify-center'>
+              <div className='sm:flex-none lg:flex justify-center g-padding'>
                 <main className='sm:w-auto md:w-auto lg:w-250'>
                   <Introduction />
-                  <Table />
+                  <Table dataTheme={isDark}/>
                   <Work />
                   <Coding />
                 </main>

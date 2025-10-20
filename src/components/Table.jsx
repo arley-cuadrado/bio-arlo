@@ -1,9 +1,11 @@
+import React,{ useState, useEffect } from 'react'
 import publicis from '/assets/publicisGroupe.png'
 import vass from '/assets/vass.png'
 import dot from '/assets/grupoDot.png'
 import leo from '/assets/leo.png'
 
 export default function Table() {
+
   return (
     <>
       <div className="max-w-md mb-10">
@@ -11,6 +13,9 @@ export default function Table() {
           <h1 className="text-5xl font-bold title">Experience</h1>
       </div>
       <div className="overflow-x-auto mt-10 mb-30">
+        {/*<aside className='flex flex-row-reverse'>
+          <div className='o-table' style={blurStyle}>this</div>
+        </aside>*/}
         <table className="table">
           {/* head */}
           <thead>
@@ -34,13 +39,13 @@ export default function Table() {
                       />
                     </div>
                   </div>
-                  <div>
+                  <div className=' h-auto min-w-45'>
                     <div className="font-bold">Publicis Groupe</div>
                     <div className="text-sm opacity-50">May. 2022 - Oct. 2025</div>
                   </div>
                 </div>
               </td>
-              <td>
+              <td className=' h-auto min-w-30'>
                 UI Developer
               </td>
               <td>
@@ -61,13 +66,13 @@ export default function Table() {
                       />
                     </div>
                   </div>
-                  <div>
+                  <div className=' h-auto min-w-45'>
                     <div className="font-bold">Vass Latam</div>
                     <div className="text-sm opacity-50">nov. 2019 - mar. 2022</div>
                   </div>
                 </div>
               </td>
-              <td>
+              <td className=' h-auto min-w-30'>
                 UX/UI Designer and developer
               </td>
               <td>
@@ -88,13 +93,13 @@ export default function Table() {
                       />
                     </div>
                   </div>
-                  <div>
+                  <div className=' h-auto min-w-45'>
                     <div className="font-bold">Grupo Dot</div>
                     <div className="text-sm opacity-50">oct. 2018 - nov. 2019</div>
                   </div>
                 </div>
               </td>
-              <td>
+              <td className=' h-auto min-w-30'>
                   UI / UX Desingner & front End Developer
               </td>
               <td>
@@ -115,13 +120,13 @@ export default function Table() {
                       />
                     </div>
                   </div>
-                  <div>
+                  <div className=' h-auto min-w-45'>
                     <div className="font-bold">Leo Burnett</div>
                     <div className="text-sm opacity-50">abr. 2018 - sep. 2018</div>
                   </div>
                 </div>
               </td>
-              <td>
+              <td className=' h-auto min-w-30'>
                 UX/UI Developer
               </td>
               <td>
