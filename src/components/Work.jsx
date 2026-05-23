@@ -18,7 +18,7 @@ export default function Work(){
                 <p className="pt-1 text-lg opacity-60 tracking-wide text-left">See some of my </p>
                 <h1 className="text-5xl font-bold title">UI projects</h1>
             </div>
-            <section className='flex flex-wrap justify-between mb-30'>
+            <section className='flex flex-wrap justify-center mb-30'>
 
               {
                 proj?.projects?.map((proj) => {

@@ -52,17 +52,6 @@
         {
             "id": 4,
             "title": {
-                "name": "Bet Challenge",
-                "image": "/assets/ux-04.jpg",
-                "description": "Bet is a real-time betting application associated with the NBA for all its basketball games. Although it is a proposal, it was created so that users can interact in a more dynamic and visual way. In this you can see statistics, choose the most relevant player of the night, and bet on the game and the winner."
-            },
-            "images_group": [
-                "/assets/ui_projects/image_04.jpg"
-            ]
-        },
-        {
-            "id": 5,
-            "title": {
                 "name": "Gimme! Qr App",
                 "image": "/assets/ux-05.jpg",
                 "description": "The idea behind the creation of Buddy is to provide customers with a web application that helps find lost pets. With the help of an interface where they can see the perimeters, the tracks that their pets make, send alerts to neighbors who are also registered."
@@ -72,7 +61,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 5,
             "title": {
                 "name": "Amex Airport Experience",
                 "image": "/assets/ux-06.jpg",
